@@ -34,7 +34,7 @@ enableRobotsTXT: true
 
 services:
   googleAnalytics:
-    id: G-3BZV47L6C9
+    id: G-Y9MZ63NKC7
 
 pagination:
   pagerSize: 3
