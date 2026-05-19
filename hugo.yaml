@@ -2,7 +2,7 @@
 baseURL: "https://pharbison.dev"
 languageCode: "en-us"
 title: "Patrick Harbison"
-theme: hugo-profile
+theme: github.com/gurusabarish/hugo-profile
 
 # Multilingual configuration
 defaultContentLanguage: "en"
