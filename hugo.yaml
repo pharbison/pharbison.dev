@@ -127,7 +127,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/pharbison
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/patrick-harbison-3b565019
+          url: https://www.linkedin.com/in/patrick-harbison/
 
   # About
   about:
@@ -330,7 +330,7 @@ params:
       disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/pharbison
-      linkedin: https://www.linkedin.com/in/patrick-harbison-3b565019
+      linkedin: https://www.linkedin.com/in/patrick-harbison/
 
   listPages:
     disableFeaturedImage: true
