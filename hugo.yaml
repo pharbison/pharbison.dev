@@ -1,3 +1,4 @@
+---
 baseURL: "https://pharbison.dev"
 languageCode: "en-us"
 title: "Patrick Harbison"
@@ -45,59 +46,47 @@ markup:
 
 params:
   title: "Patrick Harbison"
-  description: "Platform Engineer building scalable infrastructure, developer platforms, and automation for high-velocity engineering teams."
+  description: |
+    Platform Engineer building scalable infrastructure,
+    developer platforms, and automation for
+    high-velocity engineering teams.
   favicon: "/favicon.png"
-
-  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
-  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
   useBootstrapCDN: false
-
-  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
-
-  # Whether the fade animations on the home page will be enabled
   animate: true
-
   theme:
     disableThemeToggle: false
-    defaultTheme: "dark"   # light
-
+    defaultTheme: "dark"
   font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
-    textAlign: left # default: left
-
-  # color preference
-  # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
-
-  #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
-
-  # If you want to customize the menu, you can change it here
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+  color:
+    textColor: "#343a40"
+    secondaryTextColor: "#6c757d"
+    textLinkColor: "#007bff"
+    backgroundColor: "#eaedf0"
+    secondaryBackgroundColor: "#64ffda1a"
+    primaryColor: "#007bff"
+    secondaryColor: "#f8f9fa"
+  darkmode:
+    textColor: "#e4e6eb"
+    secondaryTextColor: "#b0b3b8"
+    textLinkColor: "#ffffff"
+    backgroundColor: "#18191a"
+    secondaryBackgroundColor: "#212529"
+    primaryColor: "#ffffff"
+    secondaryColor: "#212529"
   navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    brandLogo: "/favicon.png" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: " " # Brand name for the brand | default is the title variable
+    align: ms-auto
+    brandLogo: "/favicon.png"
+    showBrandLogo: false
+    brandName: " "
     disableSearch: false
     stickyNavBar:
-      enable : true
-      showOnScrollUp : false
+      enable: true
+      showOnScrollUp: false
     enableSeparator: false
     menus:
       disableAbout: false
@@ -114,10 +103,16 @@ params:
     title: "Patrick Harbison"
     subtitle: "Platform Engineer"
     content: |
-      I build scalable infrastructure, robust developer experience, and automated delivery systems for modern engineering teams.
-      I bring a pragmatic, outcomes-driven approach to platform design, observability, security, and self-service tooling.
-      With a background in Linux administration and a passion for automation, I thrive on solving complex operational challenges and enabling teams to ship software faster and more reliably.
-      I am always eager to learn new technologies, share knowledge, and collaborate with like-minded professionals to drive innovation and continuous improvement.
+      I build scalable infrastructure, robust developer experience,
+      and automated delivery systems for modern engineering teams.
+      I bring a pragmatic, outcomes-driven approach to platform design,
+      observability, security, and self-service tooling. With a
+      background in Linux administration and a passion for automation,
+      I thrive on solving complex operational challenges and enabling
+      teams to ship software faster and more reliably. I am always
+      eager to learn new technologies, share knowledge, and
+      collaborate with like-minded professionals to drive innovation
+      and continuous improvement.
     image: /images/profile.jpg
     bottomImage:
       enable: false
@@ -140,12 +135,15 @@ params:
     title: "About Me"
     content: |-
       I am a Platform Engineer focused on building scalable infrastructure,
-      robust developer experience, and automated systems for modern engineering teams.
-      I bring a pragmatic, outcomes-driven approach to platform design, observability,
-      security, and self-service tooling. With a background in Cisco networking, Linux administration and a passion for automation,
-      I thrive on solving complex operational challenges and enabling teams to ship software faster and more reliably.
-      I am always eager to learn new technologies, share knowledge, and collaborate with like-minded professionals
-      to drive innovation and continuous improvement.
+      robust developer experience, and automated systems for modern
+      engineering teams. I bring a pragmatic, outcomes-driven approach to
+      platform design, observability, security, and self-service tooling.
+      With a background in Cisco networking, Linux administration and a
+      passion for automation, I thrive on solving complex operational
+      challenges and enabling teams to ship software faster and more
+      reliably. I am always eager to learn new technologies, share
+      knowledge, and collaborate with like-minded professionals to drive
+      innovation and continuous improvement.
     skills:
       enable: false
       title: "Here are a few technologies I've been working with recently:"
@@ -176,28 +174,39 @@ params:
           - name: "Senior Platform Engineer"
             date: "Sept 2022 - present"
             content: |
-              I lead the design and delivery of scalable infrastructure and self-service platforms that empower engineering teams.
-              My work spans Kubernetes, CI/CD automation, observability, and cloud-native best practices utilizing Puppet, Ansible, ArgoCD, and Gitlab CI.
-              I collaborate closely with cross-functional teams to understand their needs and deliver solutions that improve reliability, reduce toil, and accelerate software delivery.
-
-              - Built reusable infrastructure modules and standardized deployment workflows.
-              - Reduced platform onboarding time through improved developer and operations tooling.
-              - Modernized configuration management and infrastructure as code practices to improve reliability and reduce toil.
-              - Implemented monitoring and alerting improvements to enhance incident response and system reliability.
-
+              I lead the design and delivery of scalable infrastructure
+              and self-service platforms that empower engineering teams.
+              My work spans Kubernetes, CI/CD automation, observability,
+              and cloud-native best practices utilizing Puppet, Ansible,
+              ArgoCD, and Gitlab CI. I collaborate closely with
+              cross-functional teams to understand their needs and deliver
+              solutions that improve reliability, reduce toil, and
+              accelerate software delivery.
+              - Built reusable infrastructure modules and standardized
+                deployment workflows.
+              - Reduced platform onboarding time through improved
+                developer and operations tooling.
+              - Modernized configuration management and infrastructure as
+                code practices to improve reliability and reduce toil.
+              - Implemented monitoring and alerting improvements to
+                enhance incident response and system reliability.
       - company: "Citadel Completions"
         companyUrl: "https://www.citadelaviation.com/"
         jobs:
           - name: "Platform Engineer"
             date: "Sept 2021 - Sept 2022"
             content: |
-              Developed and maintained infrastructure and deployment pipelines to support the company's aviation services.
-              This included implementing infrastructure as code (IaC), GitOps practices, automating software deployment processes,
-              and ensuring the reliability and scalability of the platform.
-
-              - Optimized network infrastructure and security configurations to support critical services.
-              - Implemented Kubernetes clusters and service delivery mechanisms.
-              - Automated software provisioning and lifecycle management with Kubernetes and GitOps.
+              Developed and maintained infrastructure and deployment
+              pipelines to support the company's aviation services. This
+              included implementing infrastructure as code (IaC), GitOps
+              practices, automating software deployment processes, and
+              ensuring the reliability and scalability of the platform.
+              - Optimized network infrastructure and security
+                configurations to support critical services.
+              - Implemented Kubernetes clusters and service delivery
+                mechanisms.
+              - Automated software provisioning and lifecycle management
+                with Kubernetes and GitOps.
               - Improved deployment consistency and incident response.
 
       - company: "Lake Charles Memorial Hospital"
@@ -206,40 +215,62 @@ params:
           - name: "Linux Administrator"
             date: "May 2018 - Sept 2021"
             content: |
-              Managed infrastructure, CI/CD pipelines, and observability tooling for mission-critical systems while maintaining compliance with HIPAA and other regulations.
-
-              - Created infrastructure automation for multi-campus deployments.
-              - Deployed metrics collection, monitoring and alerting across critical services.
-              - Reduced toil through automation, configuration management, and development of new processes.
-
-  # Achievements
+              Managed infrastructure, CI/CD pipelines, and observability
+              tooling for mission-critical systems while maintaining
+              compliance with HIPAA and other regulations.
+              - Created infrastructure automation for multi-campus
+                deployments.
+              - Deployed metrics collection, monitoring and alerting
+                across critical services.
+              - Reduced toil through automation, configuration management,
+                and development of new processes.
   achievements:
     enable: true
     items:
       - title: "AWS SysOps Administrator - Associate Certification"
         content: |
-          Achieved AWS SysOps Administrator Associate certification, demonstrating expertise in deploying, managing, and operating scalable, highly available, and fault-tolerant systems on AWS.
-          This certification validates my ability to implement and manage AWS services, optimize performance, and ensure security and compliance in cloud environments.
+          Achieved AWS SysOps Administrator Associate certification,
+          demonstrating expertise in deploying, managing, and operating
+          scalable, highly available, and fault-tolerant systems on AWS.
+          This certification validates my ability to implement and manage
+          AWS services, optimize performance, and ensure security and
+          compliance in cloud environments.
         image: /images/achievements/aws.png
       - title: "Cisco Certified Entry Networking Technician (CCENT)"
         content: |
-          Earned the Cisco Certified Entry Networking Technician (CCENT) certification, showcasing foundational knowledge of networking concepts and skills in installing, operating, and troubleshooting a small enterprise branch network.
-          This certification highlights my understanding of basic networking principles, IP addressing, and network security, which are essential for building and maintaining reliable infrastructure.
+          Earned the Cisco Certified Entry Networking Technician (CCENT)
+          certification, showcasing foundational knowledge of networking
+          concepts and skills in installing, operating, and troubleshooting
+          a small enterprise branch network. This certification highlights
+          my understanding of basic networking principles, IP addressing,
+          and network security, which are essential for building and
+          maintaining reliable infrastructure.
         image: /images/achievements/cisco.png
       - title: "Team MVP 2025"
         content: |
-          Led the design and implementation of a self-service GitOps platform that empowered engineering and developer teams to deploy and manage services with minimal ops support.
-          This initiative significantly improved deployment velocity, reduced toil for the operations team, and enhanced overall reliability across the organization.
+          Led the design and implementation of a self-service GitOps
+          platform that empowered engineering and developer teams to
+          deploy and manage services with minimal ops support. This
+          initiative significantly improved deployment velocity, reduced
+          toil for the operations team, and enhanced overall reliability
+          across the organization.
         image: /images/achievements/mvp.png
       - title: "Team MVP 2024"
         content: |
-          Updated, standardized, and overhauled infrastructure codebases to improve reliability and reduce toil for the operations team.
-          Additionally created documentation and class materials to onboard new team members and share best practices across the organization.
+          Updated, standardized, and overhauled infrastructure codebases
+          to improve reliability and reduce toil for the operations team.
+          Additionally created documentation and class materials to
+          onboard new team members and share best practices across the
+          organization.
         image: /images/achievements/mvp.png
       - title: "Nominated for Team Duct Tape Award 2024"
         content: |
-          Recognized for creating practical automation and tooling to solve critical operational challenges and reduce toil for the operations team.
-          This included automating manual processes, improving monitoring and alerting, and implementing self-service solutions that empowered teams to manage their own services more effectively.
+          Recognized for creating practical automation and tooling to
+          solve critical operational challenges and reduce toil for the
+          operations team. This included automating manual processes,
+          improving monitoring and alerting, and implementing self-service
+          solutions that empowered teams to manage their own services more
+          effectively.
         image: /images/achievements/tape.png
 
   # Projects
@@ -248,8 +279,9 @@ params:
     items:
       - title: "Self-Service Platform"
         content: |
-          Delivered a self-service infrastructure platform, utilizing ArgoCD, Ansible, and K3s,
-          for teams to provision and deploy services with minimal Operations support.
+          Delivered a self-service infrastructure platform, utilizing
+          ArgoCD, Ansible, and K3s, for teams to provision and deploy
+          services with minimal Operations support.
         image: /images/projects/gitops.png
         badges:
           - "ArgoCD"
@@ -258,8 +290,10 @@ params:
           - "Ansible"
       - title: "PKI Automation"
         content: |
-          Implemented automated certificate management and renewal processes using HashiCorp Vault and a custom Go application,
-          significantly reducing the risk of certificate-related outages and improving security posture.
+          Implemented automated certificate management and renewal
+          processes using HashiCorp Vault and a custom Go application,
+          significantly reducing the risk of certificate-related outages
+          and improving security posture.
         image: /images/projects/vault.png
         badges:
           - "HashiCorp Vault"
@@ -267,21 +301,26 @@ params:
           - "PKI"
       - title: Gitlab CI/CD Automation
         content: |
-          Developed and maintained CI/CD pipelines using Gitlab CI, automating the build, test, and deployment processes for multiple applications.
-          This initiative improved deployment consistency, reduced manual errors, and accelerated the software delivery lifecycle.
+          Developed and maintained CI/CD pipelines using Gitlab CI,
+          automating the build, test, and deployment processes for
+          multiple applications. This initiative improved deployment
+          consistency, reduced manual errors, and accelerated the software
+          delivery lifecycle.
         image: /images/projects/gitlab.png
         badges:
           - "Gitlab"
           - "CI/CD"
           - "Automation"
 
-  #Contact
+  # Contact
   contact:
     enable: true
     content: |
-      I'm always open to discussing new opportunities, collaborations, or just connecting with like-minded professionals. Whether you have a question about my work,
-      want to chat about industry trends, or are interested in working together, feel free to reach out. I look forward to hearing from you!
-
+      I'm always open to discussing new opportunities, collaborations,
+      or just connecting with like-minded professionals. Whether you
+      have a question about my work, want to chat about industry
+      trends, or are interested in working together, feel free to
+      reach out. I look forward to hearing from you!
   footer:
     recentPosts:
       path: "posts"
@@ -293,11 +332,9 @@ params:
       github: https://github.com/pharbison
       linkedin: https://www.linkedin.com/in/patrick-harbison-3b565019
 
-  # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
-  # Single pages like blog and post
   singlePages:
     socialShare: true
     readTime:
@@ -308,7 +345,6 @@ params:
     tags:
       openInNewTab: true
 
-  # For translations
   terms:
     read: "Read"
     toc: "Table Of Contents"
@@ -319,6 +355,3 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
-
-  #customScripts: -| # You can add custom scripts which will be added before </body> tag
-  #  <script type="text/javascript"><!-- any script here --></script>
