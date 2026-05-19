@@ -1,0 +1,77 @@
+---
+name: Deploy to GitHub Pages
+
+on:   # yamllint disable-line rule:truthy
+  push:
+    branches:
+      - main
+
+# Limit concurrent deployments to prevent duplicates
+concurrency:
+  group: 'pages-${{ github.ref }}'
+  cancel-in-progress: true
+
+jobs:
+  # Validate YAML syntax and configuration before deployment
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Lint YAML configuration files
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          config_file: .yamllint
+
+  # Build the Hugo site and upload artifact
+  build:
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build static web files
+        run: hugo --minify
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: public
+          path: ./public
+
+  # Deploy the pre-built artifact to GitHub Pages
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
