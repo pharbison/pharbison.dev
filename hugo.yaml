@@ -117,11 +117,11 @@ params:
     bottomImage:
       enable: false
     button:
-      enable: false
+      enable: true
       name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      url: "/files/Resume - Patrick Harbison.pdf"
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -193,7 +193,7 @@ params:
       - company: "Citadel Completions"
         companyUrl: "https://www.citadelaviation.com/"
         jobs:
-          - name: "Platform Engineer"
+          - name: "Site Reliability Engineer"
             date: "Sept 2021 - Sept 2022"
             content: |
               Developed and maintained infrastructure and deployment
@@ -227,25 +227,6 @@ params:
   achievements:
     enable: true
     items:
-      - title: "AWS SysOps Administrator - Associate Certification"
-        content: |
-          Achieved AWS SysOps Administrator Associate certification,
-          demonstrating expertise in deploying, managing, and operating
-          scalable, highly available, and fault-tolerant systems on AWS.
-          This certification validates my ability to implement and manage
-          AWS services, optimize performance, and ensure security and
-          compliance in cloud environments.
-        image: /images/achievements/aws.png
-      - title: "Cisco Certified Entry Networking Technician (CCENT)"
-        content: |
-          Earned the Cisco Certified Entry Networking Technician (CCENT)
-          certification, showcasing foundational knowledge of networking
-          concepts and skills in installing, operating, and troubleshooting
-          a small enterprise branch network. This certification highlights
-          my understanding of basic networking principles, IP addressing,
-          and network security, which are essential for building and
-          maintaining reliable infrastructure.
-        image: /images/achievements/cisco.png
       - title: "Team MVP 2025"
         content: |
           Led the design and implementation of a self-service GitOps
@@ -272,6 +253,25 @@ params:
           solutions that empowered teams to manage their own services more
           effectively.
         image: /images/achievements/tape.png
+      - title: "AWS SysOps Administrator - Associate Certification"
+        content: |
+          Achieved AWS SysOps Administrator Associate certification,
+          demonstrating expertise in deploying, managing, and operating
+          scalable, highly available, and fault-tolerant systems on AWS.
+          This certification validates my ability to implement and manage
+          AWS services, optimize performance, and ensure security and
+          compliance in cloud environments.
+        image: /images/achievements/aws.png
+      - title: "Cisco Certified Entry Networking Technician (CCENT)"
+        content: |
+          Earned the Cisco Certified Entry Networking Technician (CCENT)
+          certification, showcasing foundational knowledge of networking
+          concepts and skills in installing, operating, and troubleshooting
+          a small enterprise branch network. This certification highlights
+          my understanding of basic networking principles, IP addressing,
+          and network security, which are essential for building and
+          maintaining reliable infrastructure.
+        image: /images/achievements/cisco.png
 
   # Projects
   projects:
