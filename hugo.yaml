@@ -1,6 +1,5 @@
 ---
 baseURL: "https://pharbison.dev"
-languageCode: "en-us"
 title: "Patrick Harbison"
 theme: github.com/gurusabarish/hugo-profile
 
@@ -8,18 +7,14 @@ theme: github.com/gurusabarish/hugo-profile
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
-languages:
-  en:
-    languageName: "English"
-    weight: 1
-    contentDir: "content"
-#     menu:
-#       main:
-#         - identifier: blog
-#           name: Blog
-#           title: Blog posts
-#           url: /posts
-#           weight: 1
+# Coming Soon!
+# menu:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog
+#       url: /posts
+#       weight: 1
 
 outputs:
   home:
@@ -134,16 +129,42 @@ params:
     enable: true
     title: "About Me"
     content: |-
-      I am a Platform Engineer focused on building scalable infrastructure,
-      robust developer experience, and automated systems for modern
-      engineering teams. I bring a pragmatic, outcomes-driven approach to
-      platform design, observability, security, and self-service tooling.
-      With a background in Cisco networking, Linux administration and a
-      passion for automation, I thrive on solving complex operational
-      challenges and enabling teams to ship software faster and more
-      reliably. I am always eager to learn new technologies, share
-      knowledge, and collaborate with like-minded professionals to drive
-      innovation and continuous improvement.
+      I'm a husband, father, technology enthusiast, and lifelong
+      problem solver that enjoys building things, whether that's
+      enterprise platforms at work, home lab projects on the weekends,
+      or the occasional Commander deck around the kitchen table.
+
+      Professionally, I work as a Senior Platform Engineer with a
+      background spanning infrastructure, automation, DevOps, and
+      platform engineering. Over the years, I've worked with everything
+      from systems administration and networking to cloud technologies,
+      CI/CD pipelines, and container platforms. What I enjoy most about
+      technology is the constant opportunity to learn, improve, and
+      solve any problems I run into.
+
+      Outside of work, family is the center of my life. Some of my favorite
+      moments are the simple ones, spending time with my wife and kids,
+      sharing experiences, and making memories together. Whether it's from
+      far away watching the kids play sports, or right next to them hiking
+      or enjoying the beach, I just enjoy making memories with them.
+
+      When I have free time, I enjoy hobbies that combine creativity
+      and problem-solving. I've recently started playing Magic: The Gathering
+      Commander and enjoy creating new decks and discovering unique
+      interactions. I also enjoy photography, which gives me a chance
+      to slow down, explore the world from a different perspective, and
+      capture moments that might otherwise go unnoticed.
+
+      I'm also passionate about home lab projects and personal development.
+      Whether I'm experimenting with new technologies, building automation
+      tools, or learning something completely new, I enjoy the challenge of
+      turning ideas into reality.
+
+      At the end of the day, I'm someone who enjoys learning, creating, and
+      sharing knowledge. Whether it's solving a technical challenge, capturing
+      a great photograph, building a new project, or spending time with family,
+      I believe there's always value in staying curious and continuing to grow.
+
     skills:
       enable: false
       title: "Here are a few technologies I've been working with recently:"
